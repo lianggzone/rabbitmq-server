@@ -1,0 +1,44 @@
+{
+	"id": "9540ad18-f485-def2-4208-5f7da17c04dd",
+	"name": "email-server-producer",
+	"description": "",
+	"order": [
+		"29a5ced4-8e1b-8551-835b-7a49bd5eb543"
+	],
+	"folders": [],
+	"timestamp": 1496988705231,
+	"owner": "89932",
+	"public": false,
+	"requests": [
+		{
+			"id": "29a5ced4-8e1b-8551-835b-7a49bd5eb543",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/v1/emails",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1496988862170,
+			"name": "发送邮件",
+			"description": "",
+			"collectionId": "9540ad18-f485-def2-4208-5f7da17c04dd",
+			"responses": [],
+			"rawModeData": "{\n\t\"to\":\"lianggzone@163.com\",\n\t\"subject\":\"email-server-producer\",\n\t\"text\":\"<html><head></head><body><h1>邮件测试</h1><p>hello!this is mail test。</p></body></html>\"\n}"
+		}
+	]
+}
